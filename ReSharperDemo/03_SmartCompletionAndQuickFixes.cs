@@ -43,6 +43,15 @@ namespace ReSharperDemo
                 }
             }
 
+            //5
+            IEnumerable<Booking> bookings = new List<Booking>();
+            var assigned = new Dictionary<Booking, int>();
+
+            foreach (var booking in bookings)
+            {
+               assigned.Add(booking, booking.NumOfPax);
+            }
+
         }//Highlight closing braces
 
         
