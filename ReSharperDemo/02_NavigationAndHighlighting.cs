@@ -155,7 +155,7 @@ namespace ReSharperDemo
     /// <para>similar to the Emirates class</para>
     /// </remarks>
     /// <seealso cref="Emirates"/>
-    class Mango : Booking
+    public class Mango : Booking
     {
 
         /// <summary>
