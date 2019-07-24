@@ -86,6 +86,7 @@ namespace ReSharperDemo
         {
             //Bug: this is a hack
 
+            //Alt+Enter on the string below and Mark as CSS
             var css = @".text{
                                 color: #434;
                                 margin: 0;
@@ -116,7 +117,7 @@ namespace ReSharperDemo
         public void SuggestType()
         {
             //var a = new XmlTextWriter("dwd", Encoding.UTF7);
-            //Start typing the above line, after the comma press Ctrl+Shift+Space to get the Encoding num values
+            //Start typing the above line, after the comma press Ctrl+Shift+Space to get the Encoding enum values
 
             var formattedDate = DateTime.Now.ToString();
         }
