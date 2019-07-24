@@ -8,6 +8,8 @@ public class Flights
         var total = 200;
         var emirates = new Emirates();
 
+        //Place the cursor at the end of a word in one of the methods below and press Ctrl+Space
+        //You will see the complete symbol options and then press Tab on the option you want
         emirates.GetLocation();
         emirates.CalculateReward();
 
