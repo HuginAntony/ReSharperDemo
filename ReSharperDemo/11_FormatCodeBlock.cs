@@ -6,6 +6,7 @@ namespace ReSharperDemo
     {
         public string DisplayMessage(string name, string message)
         {
+            //Select all the code below, Alt+Enter, format selection
             if (name == null) name = "Name cannot be null";
             if (message == null) message = "Message cannot be null";
             return $"{message}, {name}!";
