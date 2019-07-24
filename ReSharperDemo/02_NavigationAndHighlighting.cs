@@ -157,6 +157,7 @@ namespace ReSharperDemo
     /// <seealso cref="Emirates"/>
     public class Mango : Booking
     {
+        //Invoke Navigate to Exposing APIs to see where an instance of this class is returned
 
         /// <summary>
         /// Gets the detailed flight information

@@ -7,5 +7,10 @@
             //Uncomment, Alt+Enter, select find this type in nuget
             //JsonConvert
         }
+
+        public Mango ReturnMango()
+        {
+            return new Mango();
+        }
     }
 }
