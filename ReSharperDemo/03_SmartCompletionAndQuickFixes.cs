@@ -1,28 +1,37 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using ReSharperDemo.Models;
 
 namespace ReSharperDemo
 {
     class SmartCompletionAndQuickFixes
     {
+
+        public Customers[] GetCustomers(Customers[] customers)
+        {
+            //return customers.Where(c => c.CustomerId == "new");
+
+            //Code analysis for return type and auto import using
+            //Remove the null and start typing the above Linq query
+            return null;
+        }
+
         //Alt+Enter to get quick fixes
         private void ConvertToLinq()
         {
-            var n = Enumerable.Range(1, 20);
+            //var n = Enumerable.Range(1, 20);
             int sum = 0;
 
             
             //1
-            foreach (var num in n)
-            {
-                sum += num;
-            }
+            //foreach (var num in n)
+            //{
+            //    sum += num;
+            //}
 
             //2
             var numbers = new List<int> { 6, 2, 8, 3 };
-            int sumAgg = numbers.Aggregate(func: (result, item) => result + item);
+            //int sumAgg = numbers.Aggregate(func: (result, item) => result + item);
 
             //3
             int s = 0;
@@ -102,16 +111,6 @@ namespace ReSharperDemo
             Emirates,
             AmericanAirlines,
             Qatar
-        }
-
-        
-        public Customers[] GetCustomers(Customers[] customers)
-        {
-            //return customers.Where(c => c.CustomerId == "new");
-
-            //Code analysis for return type and auto import using
-            //Remove the null and start typing the above Linq query
-            return null;
         }
 
         public void SuggestType()
